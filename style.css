@@ -1,0 +1,40 @@
+.face {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.eyes {
+  height: 300px;
+  display: flex;
+}
+
+.eye {
+  width: 300px;
+  padding: 50px;
+}
+
+.brow {
+  width: 150px;
+  height: 30px;
+  margin: 0 auto;
+  background: #000;
+}
+
+.pupil {
+  width: 60px;
+  height: 150px;
+  margin: 0 auto;
+  background: #000;
+}
+
+.mouth {
+  width: 350px;
+  height: 175px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 0 0 175px 175px;
+  border: 30px solid #000;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top: none;
+}
