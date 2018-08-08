@@ -1,16 +1,16 @@
 .face {
   width: 600px;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .eyes {
-  height: 300px;
+  height: 200px;
   display: flex;
 }
 
 .eye {
   width: 300px;
-  padding: 50px;
 }
 
 .brow {
@@ -29,12 +29,13 @@
 
 .mouth {
   width: 350px;
-  height: 175px;
+  height: 350px;
   margin: 0 auto;
   box-sizing: border-box;
-  border-radius: 0 0 175px 175px;
+  border-radius: 175px;
   border: 40px solid #000;
   border-left-color: transparent;
   border-right-color: transparent;
   border-top: none;
+  transform: translateY(-100px);
 }
