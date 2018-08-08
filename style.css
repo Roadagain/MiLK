@@ -1,5 +1,6 @@
 .face {
-  width: 600px;
+  width: 90vw;
+  max-width: 600px;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -10,34 +11,34 @@
 }
 
 .eye {
-  width: 300px;
+  width: 50%;
 }
 
 .brow {
-  width: 150px;
+  width: 50%;
   height: 30px;
   margin: 0 auto;
   background: #000;
 }
 
 .pupil {
-  width: 60px;
+  width: 20%;
   height: 150px;
   margin: 0 auto;
   background: #000;
 }
 
 .mouth {
-  width: 350px;
+  width: 59%;
   height: 350px;
   margin: 0 auto;
   box-sizing: border-box;
-  border-radius: 175px;
+  border-radius: 50%;
   border: 40px solid #000;
   border-left-color: transparent;
   border-right-color: transparent;
   border-top: none;
-  margin-top: -100px;
+  margin-top: -20%;
 }
 
 .position-form {
