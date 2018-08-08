@@ -1,5 +1,3 @@
-const clip = (mini, maxi, val) => Math.min(maxi, Math.max(mini, val));
-
 const moveFace = (x) => {
   const brows = document.getElementsByClassName('brow');
   const mouth = document.getElementsByClassName('mouth')[0];
@@ -12,9 +10,10 @@ const moveFace = (x) => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.addEventListener('mousemove', (evt) => {
+  const position = document.getElementsByClassName('slidebar')[0];
+  position.addEventListener('input', (evt) => {
     const width = window.screen.width;
-    const x = clip(-300, 300, evt.clientX - width / 2);
+    const x = evt.target.value;
     moveFace(x);
   })
 })
