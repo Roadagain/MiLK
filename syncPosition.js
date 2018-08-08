@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const position = document.getElementsByClassName('slidebar')[0];
   position.addEventListener('input', (evt) => {
     const width = window.screen.width;
-    const x = evt.target.value;
+    const x = -evt.target.value;
     moveFace(x);
   })
 })
