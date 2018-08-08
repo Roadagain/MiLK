@@ -15,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('mousemove', (evt) => {
     const width = window.screen.width;
     const x = clip(-300, 300, evt.clientX - width / 2);
-    console.log({x, val: evt.clientX - width / 2});
     moveFace(x);
   })
 })
